@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+}
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 9px yellow;
+}
+body{
+  /* background-image: url('https://resources.mynewsdesk.com/image/upload/c_limit,dpr_2.625,f_auto,h_700,q_auto,w_340/f7rjpdyhyrlxwu8tptmb.jpg'); */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  width: 90%;
+  background-color: black;
+  /* margin-bottom: 100%; */
+  /* height: 50rem; */
+
+}
+.imagePalidrone{
+  width: 80%;
+  background-image: url('https://monovisions.com/wp-content/uploads/2019/07/monovisions-awards-winners-announced-best-black-and-white-photography-2019-05.jpg');
+  background-repeat: no-repeat;
+  height: 40rem;
+  margin-left: 14%;
+  color: white;
+  margin-top: 5%;
+  border: 1px solid white;
+
+}
+
+input,button {
+  height: 2rem;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 10%; */
+    margin-top: 5%
+}
+p{
+      margin: 0 auto;
+      margin-top: 4%;
+      margin-left: 43%;
+      text-shadow: 3px 3px 9px pink;
+      font-size: 1.5rem;
+
+ /* mix-blend-mode: multiply; */
+}
+button{
+  width: 17%;
+  color: black;
+}
+button:hover{
+  /* credit to css tricks */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+
+  }
